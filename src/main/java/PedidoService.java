@@ -3,7 +3,7 @@ import java.util.UUID;
 public class PedidoService {
 
     public void calcularValorTotal(Pedido pedido){
-        pedido.setValorTotal(0);
+        pedido.setValorTotal(pedido.getProduto().getPreco() * pedido.getQuantidade());
     }
 
     public void gerarPedido(Produto produto, Cliente cliente, int quantidade){
