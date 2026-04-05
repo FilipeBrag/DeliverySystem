@@ -1,0 +1,3 @@
+public enum Categorias {
+    ELETRODOMESTICOS, ELETRONICOS, MOVEIS, MODA
+}
